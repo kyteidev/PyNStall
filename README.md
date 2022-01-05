@@ -1,4 +1,6 @@
 # PyNStall
+Copyright (c) 2022 LifeTecLover999. All rights reserved.
+
 The best open-source Python app installer
 
 # How to use
