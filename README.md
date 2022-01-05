@@ -3,7 +3,7 @@ Distributed under the MIT License, see LICENSE for details.
 
 The best open-source Python app installer
 
-# How to use
+# How to setup
 PyNStall is a highly customizable installer. It uses the Python TKinter GUI library.
 To use, 
 1. Download PyNSTall.py
@@ -22,3 +22,6 @@ To use,
 from line 158 to 172 you can edit the position of the widgets
 
 and then from line 188 to line 203 change "PyNStall" to your installer name.
+
+# How to use
+the default installer GUI itself is very simple, but it can be modified. The default GUI has a version chooser thingy, a title, a subtitle, a description, an install button, an uninstall button, and an install directory selector thingy.
