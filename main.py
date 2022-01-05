@@ -1,4 +1,4 @@
-versionsUrl = "https://raw.githubusercontent.com/LifeTecLover999/Cypher-versions/main/versions?token=AVLBPXLT4DDRMITREVFWGQDB3YL6S" #The versions file has to be in .txt format!
+versionsUrl = "link.to/versions/file" #The versions file has to be in .txt format!
 
 from tkinter import Label, Entry, Tk, CENTER, LEFT, END, StringVar, PhotoImage, Checkbutton, BooleanVar
 from tkinter import filedialog as fd
