@@ -29,7 +29,7 @@ from line 158 to 172 you can edit the position of the widgets
 and then from line 188 to line 203 change "PyNStall" to your installer name.
 
 # How to use
-the default installer GUI itself is very simple, but it can be modified. The default GUI has a version chooser thingy, a title, a subtitle, a description, an install button, an uninstall button, and an install directory selector thingy.
+the default installer GUI itself is very simple, but it can be modified. The default GUI has a version chooser thingy, a title, a subtitle, a description, an install button, an uninstall button, and an install directory selector thingy. Click 'install' to install the app, the three dots to select an install directory, quit to quit the installer of course, and the text field to manually type in the install directory
 
 # How to distribute
 once you have customized PyNStall to your liking, it is time to build it into an app. For Windows, I recommend AutoPyToExe. It is a very simple py to exe file converter based on PyInstaller. For MacOS, I recommend Py2App. The same thing as AutoPyToExe but it doesn't have a GUI and is for MacOS.
