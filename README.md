@@ -3,13 +3,18 @@ Distributed under the MIT License, see LICENSE for details.
 
 The best open-source Python app installer
 
-# How to setup
+# How to setup for modifying the code
 PyNStall is a highly customizable installer. It uses the Python TKinter GUI library.
 To use, 
 1. Download PyNSTall.py
 2. Create new project in your IDE
 3. replace main.py with PyNStall.py (If it was created by your IDE. If not, then drag PyNStall.py to your Python project directory)
-4. Edit the following variables:
+4. Install the following libraries:
+* Tkinter: pip install tk
+* Requests: pip install requests
+* Beautifulsoup: pip install beautifulsoup4
+
+5. Edit the following variables:
 * versionsUrl - line 1 - this variable is used for providing version data to the version selector.
 * cwd - line 16 - this is the directory in which PyNStall will install the app in
 * versionstring - line 17 - this is optional. it shows PyNStall's current version
@@ -25,3 +30,10 @@ and then from line 188 to line 203 change "PyNStall" to your installer name.
 
 # How to use
 the default installer GUI itself is very simple, but it can be modified. The default GUI has a version chooser thingy, a title, a subtitle, a description, an install button, an uninstall button, and an install directory selector thingy.
+
+# How to distribute
+once you have customized PyNStall to your liking, it is time to build it into an app. For Windows, I recommend AutoPyToExe. It is a very simple py to exe file converter based on PyInstaller. For MacOS, I recommend Py2App. The same thing as AutoPyToExe but it doesn't have a GUI and is for MacOS.
+links:
+* AutoPyToExe: https://pypi.org/project/auto-py-to-exe/
+* Py2App: https://pypi.org/project/py2app/
+Documentation for them should be found on their websites.
