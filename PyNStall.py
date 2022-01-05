@@ -156,20 +156,20 @@ def window():
     directory.insert(0, cwd)
 
     # place all widgets on window
-
+    #title, description, and so on
     version_string.place(x=1, y=1)
     title.place(x=80, y=10)
     subtitle.place(x=25, y=42)
     description.place(x=40, y=70)
 
-
+    #directory related things
     directory.place(x=84, y=115)
     folder_string.place(x=20, y=113)
     btn_path.place(x=225, y=112)
 
     dropdown.place(x=120, y=140)
     versionchoose_string.place(x=65, y=139)
-
+    #install and quit buttons
     btn_install.place(x=70, y=170)
     btn_cancel.place(x=70, y=200)
 
