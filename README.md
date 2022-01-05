@@ -1,5 +1,5 @@
 # PyNStall Copyright (c) 2022 LifeTecLover999. All rights reserved.
-Distributed under the GNU General Public License v2, see LICENSE for details.
+Distributed under the MIT License, see LICENSE for details.
 
 The best open-source Python app installer
 
