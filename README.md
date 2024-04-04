@@ -37,3 +37,6 @@ links:
 * AutoPyToExe: https://pypi.org/project/auto-py-to-exe/
 * Py2App: https://pypi.org/project/py2app/
 Documentation for them should be found on their websites.
+
+# Credits
+based on hydrogen installer by zPeanut.
