@@ -1,4 +1,4 @@
-# PyNStall v1.0 Copyright (c) 2022 LifeTecLover999. All rights reserved.
+# PyNStall v1.0
 Distributed under the MIT License, see LICENSE for details.
 
 The best open-source Python app installer
